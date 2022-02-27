@@ -61,7 +61,7 @@ body {
   background-color: var(--header-footer-color);
   /* background-image: url("../src/img/pexels-fwstudio-163999.jpg"); */
   background-image: url("../img/pexels-fwstudio-163999.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: right center;
   display: flex;
