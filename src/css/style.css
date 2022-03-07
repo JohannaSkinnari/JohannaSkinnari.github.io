@@ -1,11 +1,16 @@
 :root {
-  --primary-color: lime;
-  --scroll-color: rgba(1, 212, 1, 0.432);
-  --disable-color: rgb(39, 39, 39);
+  /* --primary-color: #bcfd4c; */
+  --primary-color: #2cccc3;
+  /* --primary-color: #facd3d; */
+  /* --primary-color: #5626c4; */
+  /* --primary-color: #e60576; */
+  /* --primary-color: #fdd935; */
+  --scroll-color: #2cccc3;
+  --disable-color: #272727;
   --background-color: #000;
-  --base-color: rgb(15, 15, 15);
-  --text-color: #fff;
-  --tag-color: rgb(185, 183, 183);
+  --base-color: #0f0f0f;
+  --text-color: #f7f7f7;
+  --tag-color: #b9b7b7;
   --nav-width: 6rem;
   --nav-height: 4rem;
   /* --footer-height: 5rem; */
@@ -207,8 +212,8 @@ h2 {
 
 .info-card {
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .experience-icon {
   color: var(--text-color);
@@ -219,6 +224,7 @@ h2 {
 
 .info-text {
   font-size: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .info-text > a {
@@ -607,6 +613,7 @@ h2 {
   }
 
   .experience-icon {
+    margin-bottom: 1rem;
     margin-left: unset;
     margin-right: unset;
   }
