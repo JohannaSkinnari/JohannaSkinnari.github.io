@@ -1,11 +1,11 @@
 :root {
-  /* --primary-color: #bcfd4c; */
-  --primary-color: #2cccc3;
+  --primary-color: #bcfd4c;
+  /* --primary-color: #2cccc3; */
   /* --primary-color: #facd3d; */
   /* --primary-color: #5626c4; */
   /* --primary-color: #e60576; */
   /* --primary-color: #fdd935; */
-  --scroll-color: #2cccc3;
+  --scroll-color: #bcfd4c;
   --disable-color: #272727;
   --background-color: #000;
   --base-color: #0f0f0f;
@@ -13,7 +13,6 @@
   --tag-color: #b9b7b7;
   --nav-width: 6rem;
   --nav-height: 4rem;
-  /* --footer-height: 5rem; */
   --content-height: 100vh;
 }
 
@@ -102,14 +101,28 @@ h2 {
   background-color: var(--primary-color);
 }
 
-.menu-list > li > a {
+.link-icon {
   color: var(--text-color);
   text-decoration: none;
   font-size: 1.5rem;
 }
 
+/* .link-icon:hover {
+  color: var(--background-color);
+} */
+
+/* .menu-list > li > a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+} */
+
 .background-primary {
   background-color: var(--primary-color);
+}
+
+.dark-icon {
+  color: var(--background-color);
 }
 
 .mobile-show {

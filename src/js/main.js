@@ -8,6 +8,11 @@ let aboutLink = document.getElementById('about-link');
 let portfolioLink = document.getElementById('portfolio-link');
 let contactLink = document.getElementById('contact-link');
 
+let homeIcon = document.getElementById('home-icon');
+let aboutIcon = document.getElementById('about-icon');
+let portfolioIcon = document.getElementById('portfolio-icon');
+let contactIcon = document.getElementById('contact-icon');
+
 
 
 let mainRouter = async function (route) {
@@ -22,6 +27,11 @@ let mainRouter = async function (route) {
     homeLink.classList.remove('background-primary');
     portfolioLink.classList.remove('background-primary');
     contactLink.classList.remove('background-primary');
+
+    aboutIcon.classList.add('dark-icon');
+    homeIcon.classList.remove('dark-icon');
+    portfolioIcon.classList.remove('dark-icon');
+    contactIcon.classList.remove('dark-icon');
   }
   else if (route == '#menu_portfolio') {
     home.classList.add('hidden');
@@ -33,6 +43,11 @@ let mainRouter = async function (route) {
     homeLink.classList.remove('background-primary');
     aboutLink.classList.remove('background-primary');
     contactLink.classList.remove('background-primary');
+
+    portfolioIcon.classList.add('dark-icon');
+    homeIcon.classList.remove('dark-icon');
+    aboutIcon.classList.remove('dark-icon');
+    contactIcon.classList.remove('dark-icon');
   }
   else if (route == '#menu_contact') {
     home.classList.add('hidden');
@@ -44,6 +59,11 @@ let mainRouter = async function (route) {
     homeLink.classList.remove('background-primary');
     aboutLink.classList.remove('background-primary');
     portfolioLink.classList.remove('background-primary');
+
+    contactIcon.classList.add('dark-icon');
+    homeIcon.classList.remove('dark-icon');
+    aboutIcon.classList.remove('dark-icon');
+    portfolioIcon.classList.remove('dark-icon');
   }
   else {
     about.classList.add('hidden');
@@ -55,6 +75,11 @@ let mainRouter = async function (route) {
     aboutLink.classList.remove('background-primary');
     portfolioLink.classList.remove('background-primary');
     contactLink.classList.remove('background-primary');
+
+    homeIcon.classList.add('dark-icon');
+    aboutIcon.classList.remove('dark-icon');
+    portfolioIcon.classList.remove('dark-icon');
+    contactIcon.classList.remove('dark-icon');
   }
 }
 
